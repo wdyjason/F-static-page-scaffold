@@ -7,6 +7,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  background-color: rgb(233,235,238);
 }
 
 * {
@@ -23,6 +24,10 @@ h1 {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 header {
   display: flex;
   background-color: #3b5998;
@@ -32,18 +37,57 @@ header {
   height: 5em;
 }
 nav {
-  margin-right: 18em;
+  margin-right: 17em;
 }
 .logo {
   display: flex;
   width: 14em;
-  margin-left: 18em;
+  margin-left: 20em;
 }
 
-.logo span {
+.logo button {
   margin-left: 1em;
   height: min-content;
   padding: 4px;
   margin-top: 0.6em;
   background-color: #42b72a;
+  border-style: none;
+  color: white;
+}
+main {
+  width: 981px;
+  margin: 0 auto;
+  padding: 1em  1em;
+}
+main > p {
+  font-weight: bold;
+  margin-left: 2.5em;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+main > h1 {
+  margin-left: 1.3em;
+}
+
+ul {
+  display: flex;
+}
+
+figure {
+  text-align: center;
+  background-color: white;
+  padding: 3em 0em;
+  width: 94%;
+  height: min-content;
+  padding-bottom: 1em;
+}
+
+figure > p {
+  font-weight: lighter;
+  margin: 1em;
+  margin-bottom: 5em;
+}
+
+figure > button {
+ margin-bottom: 1em;
 }
