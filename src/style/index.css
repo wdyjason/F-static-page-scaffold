@@ -18,3 +18,32 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+h1 {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  background-color: #3b5998;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  height: 5em;
+}
+nav {
+  margin-right: 18em;
+}
+.logo {
+  display: flex;
+  width: 14em;
+  margin-left: 18em;
+}
+
+.logo span {
+  margin-left: 1em;
+  height: min-content;
+  padding: 4px;
+  margin-top: 0.6em;
+  background-color: #42b72a;
+}
