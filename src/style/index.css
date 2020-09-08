@@ -29,20 +29,23 @@ p {
 }
 
 header {
-  display: flex;
   background-color: #3b5998;
   color: white;
-  justify-content: space-between;
-  align-items: center;
   height: 5em;
 }
-nav {
-  margin-right: 17em;
+.header-content {
+  display: flex;
+  height: 5em;
+  justify-content: space-between;
+  align-items: center;
+  width: 981px;
+  margin: 0 auto;
 }
+
 .logo {
   display: flex;
   width: 14em;
-  margin-left: 20em;
+  margin-left: 3em;
 }
 
 .logo button {
@@ -78,16 +81,23 @@ figure {
   background-color: white;
   padding: 3em 0em;
   width: 94%;
-  height: min-content;
   padding-bottom: 1em;
 }
 
-figure > p {
-  font-weight: lighter;
-  margin: 1em;
-  margin-bottom: 5em;
+.figure-detial {
+  height: 12em;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 
-figure > button {
- margin-bottom: 1em;
+.figure-descripton {
+  font-weight: lighter;
+  margin: 1em;
+  margin-bottom: 1em;
+}
+
+
+
+button {
+  margin-top: 5em;
 }
